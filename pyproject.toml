@@ -1,0 +1,32 @@
+[project]
+name = "wiki-doc-generator"
+version = "1.0.0"
+description = "将 Markdown 文档转换为飞书/Lark Wiki 风格的静态 HTML 知识库页面"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "wiki-doc-generator contributors"}
+]
+keywords = ["markdown", "wiki", "documentation", "html", "static-site", "knowledge-base"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Documentation",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+
+[project.urls]
+Homepage = "https://github.com/pakho66/wiki-doc-generator"
+Repository = "https://github.com/pakho66/wiki-doc-generator"
+
+[project.scripts]
+wiki-gen = "wiki_gen:main"
